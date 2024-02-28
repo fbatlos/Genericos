@@ -6,6 +6,7 @@ fun main() {
     println(list.top())
     list.pop()
     println(list.top())
+    println(list.isEmpty())
 
     var numbers = listOf("one", "two", "three", "four")
     var numbersRev = Reversa(numbers)
